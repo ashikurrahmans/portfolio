@@ -15,7 +15,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 1px;
 }
 .container {
@@ -30,13 +30,16 @@ h2 {
 }
 .image-area img {
   width: 80%;
-  margin-left: 120px;
+}
+.header-image {
+  margin-left: 150px;
+  margin-top: 40px;
 }
 .container span {
   color: #601fe9;
 }
 .mission-area {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .mission-area h1 {
   padding-left: 15px;
@@ -69,7 +72,7 @@ h2 {
 }
 
 .mission-item {
-  width: 28%;
+  width: 32%;
   padding: 40px 40px;
   margin-left: 10px;
   margin: 20px 10px;
@@ -77,6 +80,7 @@ h2 {
 }
 .mission-item h3 {
   font-size: 25px;
+  padding: 10px 0;
 }
 .mission-item img {
   width: 40%;
@@ -89,4 +93,27 @@ h2 {
 }
 .goals {
   background-color: #fff4d6;
+}
+
+.develop-area {
+  margin: 60px 0;
+}
+.develop-area .image-area {
+  background: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.content-area p {
+  margin: 30px 0;
+  font-size: 17px;
+}
+.develop-area .content-area,
+.community-area .content-area {
+  margin-top: 50px;
+}
+.community-area .image-area {
+  margin-left: 50px;
+  background: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
