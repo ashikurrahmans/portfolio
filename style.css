@@ -28,6 +28,9 @@ h2 {
 .flex-area {
   display: flex;
 }
+span {
+  color: #601fe9;
+}
 .image-area img {
   width: 80%;
 }
@@ -35,9 +38,7 @@ h2 {
   margin-left: 150px;
   margin-top: 40px;
 }
-.container span {
-  color: #601fe9;
-}
+
 .mission-area {
   margin-top: 100px;
 }
@@ -94,7 +95,7 @@ h2 {
 .goals {
   background-color: #fff4d6;
 }
-
+.community-area,
 .develop-area {
   margin: 60px 0;
 }
@@ -111,9 +112,21 @@ h2 {
 .community-area .content-area {
   margin-top: 50px;
 }
+
 .community-area .image-area {
   margin-left: 50px;
   background: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+}
+.footer-area p {
+  font-size: 15px;
+  color: #bec0c0;
 }
