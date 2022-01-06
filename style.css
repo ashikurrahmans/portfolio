@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap");
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 * {
   margin: 0;
@@ -43,11 +44,12 @@ span {
   margin-top: 100px;
 }
 .mission-area h1 {
+  padding-top: 10px;
   padding-left: 15px;
+  font-family: "Yeseva One", cursive;
 }
 .mission-area h1 {
   border-left: 5px solid #ff5959;
-  height: 150px;
 }
 .mission-area p {
   padding: 30px 5px;
@@ -99,11 +101,12 @@ span {
 .develop-area {
   margin: 60px 0;
 }
-.develop-area .image-area {
+/* .develop-area {
+  margin: 50px 0;
   background: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: left;
-}
+} */
 .content-area p {
   margin: 30px 0;
   font-size: 17px;
@@ -115,18 +118,45 @@ span {
 
 .community-area .image-area {
   margin-left: 50px;
+}
+
+.skilled-area {
+  margin: 50px 0;
+}
+.skill-item {
+  box-shadow: 2px 0px 16px rgb(158 153 153);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.skill-item img {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+}
+.skill-item h3 {
+  margin: 20px 0;
+  font-size: 22px;
+}
+/* .community-area .image-area img {
   background: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
-  background-position: right;
-}
+  background-position: left bottom;
+  margin-left: 50px;
+} */
 
 footer {
   background: #000;
   text-align: center;
   padding: 40px 0;
-  color: #fff;
+  color: #ffffff;
+}
+.footer-area h2 {
+  font-family: "Yeseva One", cursive;
 }
 .footer-area p {
   font-size: 15px;
-  color: #bec0c0;
+  color: #4b5353;
 }
