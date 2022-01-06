@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap");
+
+*,
 body {
   margin: 0;
   padding: 0;
   font-family: "Josefin Sans", sans-serif;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
+
 img {
   width: 100%;
 }
@@ -32,29 +31,7 @@ h2 {
 span {
   color: #601fe9;
 }
-.image-area img {
-  width: 80%;
-}
-.header-image {
-  margin-left: 150px;
-  margin-top: 40px;
-}
 
-.mission-area {
-  margin-top: 100px;
-}
-.mission-area h1 {
-  padding-top: 10px;
-  padding-left: 15px;
-  font-family: "Yeseva One", cursive;
-}
-.mission-area h1 {
-  border-left: 5px solid #ff5959;
-}
-.mission-area p {
-  padding: 30px 5px;
-  width: 90%;
-}
 .button {
   background-color: #6c28ca;
   padding: 14px 30px;
@@ -63,13 +40,53 @@ span {
   text-transform: capitalize;
   border-radius: 10px;
 }
-.scrool {
+.button:hover {
+  background-color: #4c0aa8;
+  transition: 0.5s;
+}
+/* Global CSS END */
+
+.focused-area,
+.mymission,
+.develop-area,
+.community-area,
+.skilled-area {
+  margin: 30px 0;
+}
+
+/* About me CSS Start */
+.image-area img {
+  width: 80%;
+}
+.header-image {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.about-me {
+  margin-top: 100px;
+}
+.about-me h1 {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-family: "Yeseva One", cursive;
+}
+.about-me h1 {
+  border-left: 5px solid #ff5959;
+}
+.about-me p {
+  padding: 30px 5px;
+  width: 90%;
+}
+
+.scrool-content {
   padding: 60px 0;
 }
 
-/** Second Section **/
+/* About me CSS Ends */
 
-.whatismymission h2 {
+/** Mission Area Start **/
+
+.mymission h2 {
   text-align: center;
   padding-bottom: 50px;
 }
@@ -89,24 +106,21 @@ span {
   width: 40%;
 }
 .mission {
-  background-color: #edf5f6;
+  background-color: #5ac5d3;
 }
 .vision {
-  background-color: #ffeeee;
-}
-.goals {
   background-color: #fff4d6;
 }
+.goals {
+  background-color: #5ac5d3;
+}
+/* Mission Area End*/
+
+/* Community Area Start*/
 .community-area,
 .develop-area {
   margin: 60px 0;
 }
-/* .develop-area {
-  margin: 50px 0;
-  background: url(images/shapes/shape-1.png);
-  background-repeat: no-repeat;
-  background-position: left;
-} */
 .content-area p {
   margin: 30px 0;
   font-size: 17px;
@@ -120,9 +134,10 @@ span {
   margin-left: 50px;
 }
 
-.skilled-area {
-  margin: 50px 0;
-}
+/* Community Area End*/
+
+/* Skilled Area Start*/
+
 .skill-item {
   box-shadow: 2px 0px 16px rgb(158 153 153);
   padding: 20px;
@@ -140,12 +155,10 @@ span {
   margin: 20px 0;
   font-size: 22px;
 }
-/* .community-area .image-area img {
-  background: url(images/shapes/shape-1.png);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  margin-left: 50px;
-} */
+
+/* Skilled Area End*/
+
+/* Footer Area Start*/
 
 footer {
   background: #000;
@@ -156,7 +169,9 @@ footer {
 .footer-area h2 {
   font-family: "Yeseva One", cursive;
 }
-.footer-area p {
+.footer-area p,
+.footer-area a {
   font-size: 15px;
   color: #4b5353;
 }
+/* Footer Area End*/
