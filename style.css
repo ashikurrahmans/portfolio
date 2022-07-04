@@ -27,7 +27,10 @@ h2 {
 }
 .flex-area {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 span {
   color: #601fe9;
 }
@@ -51,10 +54,11 @@ span {
 .develop-area,
 .community-area,
 .skilled-area {
-  margin: 30px 0;
+  margin: 40px 0;
 }
 
 /* About me CSS Start */
+
 .image-area img {
   width: 80%;
 }
@@ -175,3 +179,55 @@ footer {
   color: #4b5353;
 }
 /* Footer Area End*/
+
+/* Menu Area  */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 4px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 20px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.menu-width {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-area {
+    flex-direction: row-reverse;
+  }
+  .image-area img {
+    width: 300px;
+  }
+  .about-me {
+    padding-top: none;
+  }
+}
